@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	string fullName;
+	string nickName;
+	string Course;
+	string Year;
+	string interest;
+	string hobbies;
+	
+	
+    cout << "Hi amigo, I am Jad Paulo V. Boquiron " << endl;
+    cout << "What is your name my friend? ";
+    getline (cin, fullName);
+    cout << "Oh so you are " << fullName << endl;
+    cout << " " <<endl; 
+    cout << "Tell me your Nickname "; 
+    cin >> nickName;
+    cout << "It is nice to meet you " << nickName << endl;
+    
+
+
+    
+    
+    return 0;
+} 

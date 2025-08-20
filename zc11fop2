@@ -6,23 +6,38 @@ int main() {
 	string fullName;
 	string nickName;
 	string Course;
+	string school;
+	string reason;
 	string Year;
 	string interest;
 	string hobbies;
 	
 	
-    cout << "Hi amigo, I am Jad Paulo V. Boquiron " << endl;
-    cout << "What is your name my friend? ";
+    cout << "**************************************" <<endl 
+         << "What is your name my friend? "<<endl;
+    cout << "**************************************" <<endl
+         << "My name is "; 
     getline (cin, fullName);
-    cout << "Oh so you are " << fullName << endl;
-    cout << " " <<endl; 
-    cout << "Tell me your Nickname "; 
-    cin >> nickName;
-    cout << "It is nice to meet you " << nickName << endl;
-    
-
-
-    
-    
-    return 0;
-} 
+    cout << "**************************************" <<endl 
+         << "Greetings, " << fullName<< endl;
+    cout << "**************************************" <<endl 
+    	 << "Tell me your Nickname "<<endl;
+	cout << "**************************************" <<endl 
+		 << "?: You can call me ";
+	getline (cin, nickName);
+    cout << "**************************************" <<endl 
+    	 << "It is nice to meet you " << nickName <<endl;
+    cout << "**************************************" <<endl 
+    	 << "I am Jad Paulo V. Boquiron" <<endl
+    	 << " " <<endl
+		 << "but you can call me, Jad" <<endl
+		 << " " <<endl;
+	cout << "**************************************" <<endl
+		 << "What school are you from? ";
+	getline (cin, school);
+	cout << "Wow same I am from " <<school<<" as well"<<endl 
+		 << "**************************************" <<endl
+		 << "Why did you choose " <<school<<"? ";
+	getline (cin, reason);
+	cout << "I 100% agree with you"
+		 

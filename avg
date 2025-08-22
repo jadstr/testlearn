@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+int num1;
+int num2;
+int average; 
+
+
+    cout<< "Enter the first number" << endl;
+    cin >> num1;
+    cout<< "Enter the second number" << endl;
+    cin >> num2;
+
+average = (num1+num2) / 2;
+
+
+    cout<< "Your average is " << average << endl; 
+
+
+
+if (num1 > average){ 
+    cout << "You did better than last time";
+}
+else { 
+    cout << "You did worse than average";
+}
+    
+
+return 0; 
+
+}

@@ -18,7 +18,7 @@ string password,  User_Name, pass, user;
 	getline(cin, user);
 	
 	if (user == User_Name){
-		cout <<"Welcome"<<endl;
+		cout <<"Welcome "<<User_Name<<endl;
 		cout <<"Enter Your Password"<<endl;
 		cin >>pass; 
 		if (pass == password)

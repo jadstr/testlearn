@@ -54,6 +54,56 @@ else if (raw >= 84 && raw < 85) {
 	numerical_grade = 90;
 	letter_grade = "B";
 }
+else if (raw >= 82 && raw < 84) {
+	numerical_grade = 89;
+	letter_grade = "C";
+}
+	else if (raw >= 80 && raw < 82) {
+	numerical_grade = 88;
+	letter_grade = "C";
+}
+else if (raw >= 79 && raw < 80) {
+	numerical_grade = 87;
+	letter_grade = "C";
+}
+else if (raw >= 78 && raw < 79) {
+	numerical_grade = 86;
+	letter_grade = "C";
+}
+else if (raw >= 76 && raw < 78) {
+	numerical_grade = 85;
+	letter_grade = "D";
+}
+else if (raw >= 74 && raw < 76) {
+	numerical_grade = 84;
+	letter_grade = "D";
+}
+else if (raw >= 72 && raw < 74) {
+	numerical_grade = 83;
+	letter_grade = "D";
+}
+else if (raw >= 71 && raw < 72) {
+	numerical_grade = 82;
+	letter_grade = "D";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 cout << "Numerical Grade: " <<numerical_grade<<endl;

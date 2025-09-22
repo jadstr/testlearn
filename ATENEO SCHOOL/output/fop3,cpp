@@ -1,0 +1,66 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string fullName, nickName, course, school, reason, year, interest, hobbies;
+
+    cout << "**************************************" << endl
+         << "What is your full name, my friend?" << endl
+         << "**************************************" << endl
+         << "My name is: ";
+    getline(cin, fullName);
+
+    cout << "**************************************" << endl
+         << "Greetings, " << fullName << "!" << endl;
+
+    cout << "**************************************" << endl
+         << "Tell me your nickname." << endl
+         << "**************************************" << endl
+         << "You can call me: ";
+    getline(cin, nickName);
+
+    cout << "**************************************" << endl
+         << "It is nice to meet you, " << nickName << "!" << endl;
+
+    cout << "**************************************" << endl
+         << "I am Jad Paulo V. Boquiron," << endl
+         << "but you can call me Jad." << endl;
+
+    cout << "**************************************" << endl
+         << "What school are you from? ";
+    getline(cin, school);
+
+    cout << "Wow, same! I am from " << school << " as well." << endl;
+
+    cout << "**************************************" << endl
+         << "Why did you choose " << school << "? ";
+    getline(cin, reason);
+
+    cout << "I agree with you!" << endl;
+
+    cout << "**************************************" << endl
+         << "What course are you taking? ";
+    getline(cin, course);
+
+    cout << "Nice! " << course << " I take ." << course << "too ! ";
+
+    cout << "**************************************" << endl
+         << "What year are you in? ";
+    getline(cin, year);
+
+    cout << "Great, so you are in " << year << " year." << endl;
+
+    cout << "**************************************" << endl
+         << "What are your interests? ";
+    getline(cin, interest);
+
+    cout << "That’s awesome! I also like " << interest << "." << endl;
+
+    cout << "**************************************" << endl
+         << "What are your hobbies? ";
+    getline(cin, hobbies);
+
+    cout << "Cool! Hobbies like " << hobbies << " are fun." << endl;
+
+    return 0; 
+} 

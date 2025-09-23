@@ -10,6 +10,10 @@ main_ATK = 12;
 main_HP = 40; 
 main_DEF = 5; 
 
+boss_ATK = 21;
+boss_DEF = 20;
+boss_HP = 400;
+
 cout<<"BLEACH TEXT GAME"<<endl<<endl;
 cout<<"BLEACH: District 67 > A Text-Based Adventure"<<endl;
 cout<<"Disclaimer: This is a fan-made educational project. Bleach is created by Tite Kubo."<<endl;
@@ -57,7 +61,7 @@ switch (option) {
         main_HP -= 5;
         break;
     default:
-        cout << "Invalid option! No stat changes applied. " << endl << endl;
+        cout << "Invalid option! Hanae was dissapointed. " << endl << endl;
     }
 cout<<"Stat Changes: "<<endl<<endl;
 cout<<"ATK: "<<main_ATK<<", ";
@@ -371,3 +375,9 @@ cout << "DEF: " << main_DEF << ", ";
 cout << "HP: " << main_HP << "." << endl;
 
 }
+
+
+
+
+
+

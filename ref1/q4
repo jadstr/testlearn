@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int password = 1234;
+    int input;
+    
+    do {
+    cout<<"Input PIN";
+    cin>>input;
+    
+    while(input != 1234)
+    
+    cout<<"Wrong PIN, Try Again."<<endl;
+    cin>>input;
+    }
+    
+}
